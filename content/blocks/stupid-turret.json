@@ -1,0 +1,44 @@
+{
+    "requirements": [
+        {
+            "item": "copper",
+            "amount": "120"
+        },
+        {
+            "item": "lead",
+            "amount": "90"
+        }
+    ],
+    "name": "Scatter Improved",
+    "description": "A scatter with more ammo and better.",
+    "size": 3,
+    "category": "turret",
+    "research": "duo",
+    "commandable": true,
+    "health": 1200.0,
+    "range": 30,
+    "buildCost": 20.0,
+    "type": "ItemTurret",
+    "ammo": {
+        "copper": {
+	        "type": "standardHoming",
+		    "damage": 2
+	    },
+        "lead": {
+	        "type": "flakLead",
+		    "damage": 3
+	    },
+        "scrap": {
+	        "type": "flakScrap",
+		    "damage": 3
+	    },
+        "metalglass": {
+            "type": "flakGlass",
+            "damage": 4
+        },
+        "surge-alloy": {
+            "type": "flakExplosive",
+            "damage": 6
+        }
+    }
+}
