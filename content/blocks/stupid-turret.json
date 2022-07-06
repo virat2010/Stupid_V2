@@ -13,18 +13,25 @@
     "description": "A scatter with more ammo and better.",
     "size": 3,
     "category": "turret",
-    "research": "duo",
-    "commandable": true,
     "health": 1200.0,
-    "range": 30,
-    "buildCost": 20.0,
+    "range": 240,
+    "buildCost": 55.4,
+    "reload": 1,
+    "inaccuracy": 17,
+    "targetAir": true,
+    "targetGround": true,
+    "shots": 2,
+    "spread": 2,
+    "breakable": true,
+    "clipSize": 3.0,
+    "attacks": true,
     "type": "ItemTurret",
     "ammo": {
         "copper": {
 	        "type": "standardHoming",
 		    "damage": 2
 	    },
-        "lead": {
+         "lead": {
 	        "type": "flakLead",
 		    "damage": 3
 	    },
@@ -32,10 +39,6 @@
 	        "type": "flakScrap",
 		    "damage": 3
 	    },
-        "metalglass": {
-            "type": "flakGlass",
-            "damage": 4
-        },
         "surge-alloy": {
             "type": "flakExplosive",
             "damage": 6
